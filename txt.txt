@@ -1,0 +1,35 @@
+
+===========================================================
+togas-lp.html
+===========================================================
+
+Problems
+1. Высота background-image height: 960px
+   .bg-top {
+	position: relative;
+  max-width: 100%;
+	background-image: url('/img/img-togas-lp/02-header.jpg');
+	background-size: cover;
+	height: 960px;
+}
+
+Как сделать адаптивную высоту?
+
+2. Меню в header
+   Cкрыть при 960 (992)
+
+
+
+
+
+
+===========================================================
+https://mdbootstrap.com/bootstrap-gulp-tutorial/           MDBOOTSTRAP
+===========================================================
+    npm install mdbootstrap
+
+   f*******************************************************
+    npm install --save-dev gulp-sass gulp-autoprefixer gulp-cssmin browser-sync gulp-concat gulp-minify gulp-rename gulp-imagemin
+
+    gulp mdb-go
+
