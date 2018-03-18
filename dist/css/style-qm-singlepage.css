@@ -110,8 +110,8 @@ header .logo-header {
 
 header .title-header h1 {
   font-family: 'Roboto-Regular';
-  font-size: 14pt;
-  line-height: 21pt;
+  font-size: 12pt;
+  line-height: 16pt;
   color: #000; }
 
 header .menu {
@@ -332,28 +332,24 @@ button.consultation {
     border-color: #a10000; }
 
 article div.anons {
-  background-color: #f8f8f8;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  margin-bottom: 35px; }
+  background-color: #f8f8f8; }
   article div.anons span {
     font-family: 'Roboto-Medium';
-    font-size: 16pt;
-    line-height: 26.4pt;
-    color: #b70500;
-    padding-left: 38px; }
+    font-size: 16px;
+    line-height: 18px;
+    color: #b70500; }
   article div.anons ul li {
     list-style-image: url(/img/img-qm-singlepage/marker.png); }
   article div.anons ul li a {
     font-family: 'Roboto-Regular';
-    font-size: 16pt;
-    line-height: 26.4pt;
+    font-size: 16px;
+    line-height: 18px;
     color: #000; }
 
 article div.art-text {
   font-family: 'Roboto-Regular';
-  font-size: 14.4pt;
-  line-height: 26.4pt;
+  font-size: 16px;
+  line-height: 28px;
   color: #000; }
 
 article .remark {
