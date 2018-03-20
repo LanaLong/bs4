@@ -2,6 +2,7 @@
 ##########################################################
 What shoud I do when "git clone"?
 
+npm install gulp
 npm install  //// or may be "npm up"???
 npm install --save-dev gulp-sass gulp-autoprefixer gulp-cssmin browser-sync gulp-concat gulp-minify gulp-rename gulp-imagemin
 ##########################################################
