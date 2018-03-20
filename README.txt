@@ -3,7 +3,7 @@ Material Design for Bootstrap
 Version: MDB Free 4.5.0
 
 Documentation:
-https://mdbootstrap.com/
+https://mdbootstrap.com/yandex
 
 Getting started:
 https://mdbootstrap.com/getting-started/
