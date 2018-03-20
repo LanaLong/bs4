@@ -6,6 +6,19 @@
 color-bronze: #B49256;
 color-light-beige: #F7F7F7;*/
 
+/* STYLES FOR FULL BACKGROUND IMAGE*/
+/*   html, body, header, #intro {
+        height: 100%;
+    }
+  #intro {
+            background: url('img/img-togas-lp/02-header.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }*/
+/* STYLES FOR FULL BACKGROUND IMAGE*/
+
 @font-face {
   font-family: "DisplayPro";
   font-style: italic;
@@ -55,9 +68,9 @@ color-light-beige: #F7F7F7;*/
   src: url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Bold.woff") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Bold.svg#PFBagueSansPro-Bold") format("svg");
 }
 
-body {
+/*body {
   position: relative;
-}
+}*/
 
 
 .logo {
@@ -703,13 +716,23 @@ padding: 0 3em;
   z-index: -100;
 }
 
+
+
 .bg-top {
-	position: relative;
+  position: relative;
   max-width: 100%;
-	background-image: url('/img/img-togas-lp/02-header.jpg');
-	background-size: cover;
-	height: 960px;
+  background-image: url('/img/img-togas-lp/02-header.jpg');
+  background-size: cover;
+  height: 960px;
 }
+/*
+.bg-top {
+	background: url('/img/img-togas-lp/02-header.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+}*/
 
 .bg-top:before {
   content: '';
@@ -723,21 +746,3 @@ padding: 0 3em;
 	opacity: 0.5; 
   }
 
-/*.bg-img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: url('http://unsplash.it/1200x800') center center no-repeat;
-  background-size: cover;
-  
-  &:before {
-    content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-	opacity: .6; 
-  }
-}*/
