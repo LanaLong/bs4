@@ -1,4 +1,14 @@
 
+##########################################################
+What shoud I do when "git clone"?
+
+npm install gulp
+npm install  //// or may be "npm up"???
+npm install --save-dev gulp-sass gulp-autoprefixer gulp-cssmin browser-sync gulp-concat gulp-minify gulp-rename gulp-imagemin
+##########################################################
+*
+*
+*
 ===========================================================
 togas-lp.html
 ===========================================================
@@ -17,12 +27,10 @@ Problems
 
 2. Меню в header
    Cкрыть при 960 (992)
-
-
-
-
-
-
+===========================================================
+*
+*
+*
 ===========================================================
 https://mdbootstrap.com/bootstrap-gulp-tutorial/           MDBOOTSTRAP
 ===========================================================
@@ -32,4 +40,7 @@ https://mdbootstrap.com/bootstrap-gulp-tutorial/           MDBOOTSTRAP
     npm install --save-dev gulp-sass gulp-autoprefixer gulp-cssmin browser-sync gulp-concat gulp-minify gulp-rename gulp-imagemin
 
     gulp mdb-go
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 

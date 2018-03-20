@@ -1,0 +1,605 @@
+
+/*color-black: #232323;
+color-bronze: #B49256;
+color-light-beige: #F7F7F7;*/
+
+@font-face {
+  font-family: "DisplayPro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://media.togas.com/skin/frontend/togas/default/fonts/display-pro-fonts/PFRegalDisplayPro-Italic.eot?#iefix") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/display-pro-fonts/PFRegalDisplayPro-Italic.woff") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/display-pro-fonts/PFRegalDisplayPro-Italic.ttf") format("truetype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/display-pro-fonts/PFRegalDisplayPro-Italic.svg#PFRegalDisplayPro-Italic") format("svg");
+}
+
+@font-face {
+  font-family: "DisplayPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://media.togas.com/skin/frontend/togas/default/fonts/display-pro-fonts/PFRegalDisplayPro-Regular.eot?#iefix") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/display-pro-fonts/PFRegalDisplayPro-Regular.woff") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/display-pro-fonts/PFRegalDisplayPro-Regular.svg#PFBagueSansPro-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+}
+
+@font-face {
+  font-family: "PFBagueSansPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Regular.woff") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Regular.svg#PFBagueSansPro-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "PFBagueSansPro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Medium.eot?#iefix") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Medium.woff") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Medium.svg#PFBagueSansPro-Medium") format("svg");
+}
+
+@font-face {
+  font-family: "PFBagueSansPro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Bold.woff") format("woff"), url("https://media.togas.com/skin/frontend/togas/default/fonts/bague/PFBagueSansPro-Bold.svg#PFBagueSansPro-Bold") format("svg");
+}
+
+body {
+  position: relative;
+}
+
+
+.logo {
+	width: 567px;
+	display: flex;
+	justify-content: center;
+	padding-top: 36px;
+	padding-bottom: 26px;
+}
+
+.subscript-top {
+
+}
+
+/* BUTTON TOP */
+.button-top {
+	text-transform: uppercase;
+	color:#fff;
+	font-family: ;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.button-stroke {
+
+}
+
+.button-bg {
+		background-color: #B49256;
+
+}
+
+.bg-section-black {
+	background-color: #232323;
+}
+
+.img-gradient{
+  position:relative;
+  display:inline-block;
+}
+
+/* BUTTONS TOGAS */
+.btn-outline-bronze {
+  background-color: transparent;
+  border: 1px solid #B49256;
+  font-family: ;
+	font-size: 0.7em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #B49256;
+	text-transform: uppercase;
+}
+
+.btn-outline-bronze-top {
+  background-color: transparent;
+  border: 1px solid #B49256;
+  font-family: ;
+	font-size: 0.7em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.btn-fill-bronze {
+	padding: 1.1rem 1.6rem;
+	color: #ffffff;
+  background-color: #B49256;
+  border: 1px solid #B49256;
+  font-family: ;
+	font-size: 0.7em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.btn-outline-bronze:hover {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-outline-bronze-top:hover {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-outline-bronze:focus, .btn-outline-bronze.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-bronze.disabled, .btn-outline-bronze:disabled {
+  color: #B49256;
+  color: #B49256;
+  background-color: transparent;
+}
+
+.btn-outline-bronze:not(:disabled):not(.disabled):active, .btn-outline-bronze:not(:disabled):not(.disabled).active,
+.show > .btn-outline-bronze.dropdown-toggle {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-outline-bronze:not(:disabled):not(.disabled):active:focus, .btn-outline-bronze:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-bronze.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+/* BUTTONS FOR OUR HISTORY */
+.btn-outline-bronze-h {
+  background-color: transparent;
+  border: 1px solid #B49256;
+  font-family: DisplayPro;
+	font-size: 1.2em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #B49256;
+	text-transform: uppercase;
+}
+
+.btn-fill-bronze-h {
+	padding: 1.1rem 1.6rem;
+	color: #ffffff;
+  background-color: #B49256;
+  border: 1px solid #B49256;
+  font-family: ;
+	font-size: 0.7em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.btn-outline-bronze-h:hover {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-outline-bronze-h:focus, .btn-outline-bronze-h.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-bronze-h.disabled, .btn-outline-bronze-h:disabled {
+  color: #B49256;
+  color: #B49256;
+  background-color: transparent;
+}
+
+.btn-outline-bronze-h:not(:disabled):not(.disabled):active, .btn-outline-bronze-h:not(:disabled):not(.disabled).active,
+.show > .btn-outline-bronze-h.dropdown-toggle {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-outline-bronze-h:not(:disabled):not(.disabled):active:focus, .btn-outline-bronze-h:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-bronze-h.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-lx, .btn-group-lx > .btn {
+  padding: 1rem 1.5rem;
+  border-radius: 0rem;
+}
+
+.btn-top, .btn-group-lx > .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0rem;
+}
+
+.btn-fill {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-fill:hover {
+  color: #B49256;
+  background-color: transparent;
+  border-color: #B49256;
+}
+
+.btn-outlined {
+  color: #fff;
+  background-color: transparent;
+  border-color: #B49256;
+}
+
+.btn-outlined:hover {
+  color: #ffffff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-lx-fill > .btn {
+ 
+}
+
+.btn-social > .btn {
+ padding: 0.7rem 0.5rem;
+ line-height: 1;
+ margin-top: 15px;
+}
+
+.border-bronze {
+	padding: 0.5rem 0.6rem 0.8rem 0.8rem;
+	border: 1px solid #B49256;
+
+}
+
+
+/* CAPS FOR TITLE */
+.caps {
+	text-transform: uppercase;
+}
+
+
+/* SECTION BLACK STYLES */
+.section-black-title {
+	text-transform: uppercase;
+	font-family: DisplayPro;
+	font-size: 2.2em;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+
+.section-black-text {
+	font-size: 1em;
+	color: #B49256;
+	font-weight: 500;
+	font-family: ;
+}
+
+.section-black-testemonials {
+	font-size: 1em;
+	color: #fff;
+	font-weight: 500;
+	font-family: ;
+}
+
+.subscript-name {
+text-transform: uppercase;
+	font-size: 0.9em;
+	color: #B49256;
+	font-weight: 500;
+	font-family: ;
+}
+
+.pl-5 {
+	padding-left: 20%;
+}
+
+.txt-line {
+	font-family: DisplayPro;
+	font-size: 1.3em;
+	font-weight: 500;
+	color: #232323;
+}
+
+.line {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #B49256; /* Цвет линии для остальных браузеров */
+  background-color: #B49256; /* Цвет линии для браузера Firefox и Opera */
+  height: 1px; /* Толщина линии */
+}
+
+.line-top {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ffffff; /* Цвет линии для остальных браузеров */
+  background-color: #ffffff; /* Цвет линии для браузера Firefox и Opera */
+  height: 1px; /* Толщина линии */
+  margin-top: 2em;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* 
+#002f4b,#dc4225 
+Convert HEX to RGBA - http://hex2rgba.devoth.com/
+*/
+.img-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.img-gradient img{
+  display:block;
+}
+
+
+
+  /* TESTSPY BS4 */
+.testspy {
+	height: 200px;
+	overflow-y: scroll;
+	/*overflow: hidden;*/
+}
+
+.section-title-left {
+	font-family: DisplayPro;
+	font-size: 4em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.section-title-center {
+	font-family: DisplayPro;
+	font-size: 4em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+.subscript-one {
+	font-family: ;
+	font-size: 0.7em;
+	font-weight: 700;
+	letter-spacing: 4px;
+	color: #B49256;
+	text-transform: uppercase;
+	padding-top: 8px;
+}
+
+.subscript-center {
+	font-family: ;
+	font-size: 0.6em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #B49256;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	font-family: ;
+	font-size: 1em;
+	color:#9D9D9C;
+}
+
+.decor-line {
+	width:150px;
+}
+
+.bg-grey {
+	background: #F7F7F7;
+}
+
+.mt-100 {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.service-title {
+	font-family: DisplayPro;
+	font-size: 1.1em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.title-year {
+	font-family: DisplayPro;
+	font-size: 1.2em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.experts-name {
+	font-family: DisplayPro;
+	font-size: 2.2em;
+	font-weight: 600;
+	line-height: 1em;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.title-contact {
+	font-family: DisplayPro;
+	font-size: 0.8em;
+	font-weight: 600;
+	line-height: 1em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.txt-contact {
+	font-family: DisplayPro;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #232323;
+}
+
+.mt-120 {
+	padding-top: 110px;
+	padding-bottom: 100px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.pt-4em {
+	padding-top: 4em;
+}
+
+
+.pb-80 {
+	padding-bottom: 80px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.mt-mb-20 {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.mt-mb-75 {
+	margin-top: 75px;
+	margin-bottom: 75px;	
+}
+
+/* MARGIN LIKE BOOTSTRAP */
+.mt-6,
+.my-6 {
+  margin-top: 4rem !important;
+}
+
+.mt-7,
+.my-7 {
+  margin-top: 5rem !important;
+}
+
+
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
+}
+
+.pt-9 {
+  padding-top: 7rem !important;
+}
+
+.pb-9 {
+  padding-bottom: 7rem !important;
+}
+
+.txt-grey-left {
+	font-family: 1.2em;
+	color: #9D9D9C;
+	line-height: 1.7em;
+}
+
+.mt-minus {
+	margin-top: -3rem;
+}
+
+.container-width {
+    min-width: 1200px !important;
+  }
+
+  @media (max-width: 720px) { 
+	.mt-minus {
+	margin-top: -4rem;
+}
+
+	.md-invisible {
+  visibility: hidden;
+	
+  }
+}
+
+.vline{
+ border-right: 1px solid #ffffff;
+}
+
+.pt-not {
+padding: 0 3em;
+}
+
+.nav-togas {
+}
+
+.nav-togas > li > a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.nav-togas > li > a:hover {
+	text-transform: uppercase;
+	color: #B49256;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.gradient-cover {
+  width: auto;
+  height: 400px;
+  background-image: linear-gradient(to bottom, black 0%, transparent 60%);
+  background-size: cover;
+  background-position: center;
+  z-index: -100;
+}
+
+.bg-top {
+	position: relative;
+  max-width: 100%;
+	background-image: url('../assets/img/021-header.jpg');
+	background-size: cover;
+	height: 960px;
+}
+
+.bg-top:before {
+  content: '';
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5; 
+  }
