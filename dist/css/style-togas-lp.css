@@ -141,17 +141,21 @@ color-light-beige: #F7F7F7;*/
 	letter-spacing: 2px;
 	color: #B49256;
 	text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 0rem;
 }
 
 .btn-outline-bronze-top {
   background-color: transparent;
   border: 1px solid #B49256;
-  font-family: ;
+  /*font-family: ;*/
 	font-size: 0.7em;
 	font-weight: 700;
 	letter-spacing: 2px;
 	color: #ffffff;
 	text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 0rem;
 }
 
 .btn-fill-bronze {
@@ -746,3 +750,14 @@ padding: 0 3em;
 	opacity: 0.5; 
   }
 
+/*------------------------------- v2 ------------------------------------*/
+ html, body, header, #intro {
+        height: 100%;
+    }
+        #intro {
+            background: url("img/img-togas-lp/02-header.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
