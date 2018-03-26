@@ -58,6 +58,79 @@
   border: 1px solid #B49256 !important;
 }
 
+.btn-fill-bronze {
+  padding: 1.1rem 1.6rem;
+  color: #ffffff;
+  background-color: #B49256 !important;
+  border: 1px solid #B49256 !important;
+  font-family: ;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 0rem;
+}
+
+.btn-fill-bronze:hover {
+  color: #FFFFFF;
+  background-color: transparent !important;
+  border-color: #B49256 !important;
+}
+
+/* BUTTONS FOR OUR HISTORY */
+.btn-outline-bronze-h {
+  background-color: transparent;
+  border: 1px solid #B49256;
+  font-family: DisplayPro;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #B49256;
+  text-transform: uppercase;
+}
+
+.btn-fill-bronze-h {
+  padding: 1.1rem 1.6rem;
+  color: #ffffff;
+  background-color: #B49256;
+  border: 1px solid #B49256;
+  font-family: ;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.btn-outline-bronze-h:hover {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-outline-bronze-h:focus, .btn-outline-bronze-h.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-bronze-h.disabled, .btn-outline-bronze-h:disabled {
+  color: #B49256;
+  color: #B49256;
+  background-color: transparent;
+}
+
+.btn-outline-bronze-h:not(:disabled):not(.disabled):active, .btn-outline-bronze-h:not(:disabled):not(.disabled).active,
+.show > .btn-outline-bronze-h.dropdown-toggle {
+  color: #fff;
+  background-color: #B49256;
+  border-color: #B49256;
+}
+
+.btn-outline-bronze-h:not(:disabled):not(.disabled):active:focus, .btn-outline-bronze-h:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-bronze-h.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+
 
 /* NAVIGATION TOP*/
 .nav-togas > li > a {
@@ -170,6 +243,10 @@ p {
   background: #F7F7F7;
 }
 
+.bg-section-black {
+  background-color: #232323;
+}
+
 .decor-line {
   width:150px;
 }
@@ -184,7 +261,6 @@ p {
   text-transform: uppercase;
 }
 
-
 .card-img-top-tg {
   width: 100%;
   border-top-left-radius: 0;
@@ -192,6 +268,43 @@ p {
 /*  border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);*/
 }
+
+/* SECTION BLACK STYLES */
+.section-black-title {
+  text-transform: uppercase;
+  font-family: DisplayPro;
+  font-size: 2.2em;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.section-black-text {
+  font-size: 1em;
+  color: #B49256;
+  font-weight: normal;
+  font-family: ;
+}
+
+.section-black-testemonials {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  font-family: ;
+}
+
+.subscript-name {
+text-transform: uppercase;
+  font-size: 0.9em;
+  color: #B49256;
+  font-weight: 500;
+  font-family: ;
+}
+
+
+
+
+
 
 /* MARGINS & PADDING */
 
