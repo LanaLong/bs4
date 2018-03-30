@@ -301,14 +301,27 @@ text-transform: uppercase;
   font-family: ;
 }
 
+/* ---------------------MARGINS & PADDING */
+/* EXPERTS */
+.experts-name {
+  font-family: DisplayPro;
+  font-size: 2.2em;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
-
-
-
-
-/* MARGINS & PADDING */
-
-
+.subscript-center {
+  font-family: ;
+  font-size: 0.6em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #B49256;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 
 

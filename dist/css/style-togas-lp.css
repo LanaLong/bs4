@@ -549,6 +549,7 @@ p {
 }
 
 .service-title {
+  
 	font-family: DisplayPro;
 	font-size: 1.1em;
 	font-weight: 600;
@@ -570,7 +571,6 @@ p {
 	font-weight: 600;
 	line-height: 1em;
 	letter-spacing: 1px;
-	
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
