@@ -68,9 +68,17 @@ gulp.task('live-server', function() {
   browserSync.init({
     server: {
       baseDir: "./dist",
-      directory: true
+      directory: true,
+    },
+    port: 8080,
+    ui: {
+      port: 8088,
+      weinre: {
+          port: 9099
+      }
     },
     notify: false
+
   });
 
   gulp.watch("**/*", {cwd: './dist/'}, browserSync.reload);
